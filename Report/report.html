@@ -1,0 +1,47 @@
+<html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <body>
+        <br><br><br>
+        <center>
+            <div>
+                <div class="mail-area">
+                    <div class="mb-3">
+                        <label for="email" class="form-label" style="color:whitesmoke;">Email address <strong style="color: red;">*</strong></label>
+                        <input class="form-control" id="email" placeholder="mail@umutefekorkmaz.com">
+                    </div>
+                </div>
+                <br>
+                <div class="form-type">
+                    <p style="color:whitesmoke;">Select Request Type <strong style="color: red;">*</strong></p>
+                    <select id="selected-request-type" class="form-select" aria-label="Default select example">
+                        <option selected>Select Type</option>
+                        <option value="1">Help & Support</option>
+                        <option value="2">Bug Reporting</option>
+                        <option value="3">Billing</option>
+                    </select>
+                </div>
+                <br>
+                <div class="text-area">
+                    <div class="mb-5">
+                        <label for="textarea" class="form-label"style="color:whitesmoke;" >Example textarea <strong style="color: red;">*</strong></label>
+                        <textarea class="form-control" id="textarea" rows="10"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="files-area">
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label" style="color:whitesmoke;">Add Files</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <button class="btn btn-success mb-3" onclick="check()">Send request</button>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
+<script src="app.js"></script>

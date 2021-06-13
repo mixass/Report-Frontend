@@ -1,0 +1,16 @@
+.text-area {
+    width: 380;
+}
+.mail-area {
+    width: 380;
+}
+.form-type {
+    width: 380;
+}
+.files-area {
+    width: 380;
+}
+body {
+    background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+    background-size: 22px 22px;
+}
